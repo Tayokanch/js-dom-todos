@@ -14,6 +14,18 @@
       "id": 3,
       "title": "Fix the gutters",
       "completed": true
+    },
+    {
+      "title": "Hovering",
+      "id": 4
+    },
+    {
+      "title": "Going going to the gym",
+      "id": 5
+    },
+    {
+      "title": "Going for a dinner date",
+      "id": 6
     }
   ]
 }

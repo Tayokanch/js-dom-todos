@@ -10,6 +10,7 @@ const state = {
 }
 
 //second
+// if the path has some data in it, then do this with the data
 const renderList = ()=>{
     state.lists.forEach((list)=>{
   
@@ -26,11 +27,11 @@ const renderList = ()=>{
         }
         todoListContainer.append(todoList)
      
-       })
+    })
     
 }
 
-//First you fetch
+//First you make a fetch from the path
 const fetchByGet = ()=>{
     //getting data from todos path
     fetch(`${root}/todos`)
@@ -45,6 +46,7 @@ const fetchByGet = ()=>{
 }
 
 //Third
+//Post more data to the path and then call the second function to update the data on our webpage
 const fetchByPost = ()=>{
 
     form.addEventListener('submit', (e)=>{

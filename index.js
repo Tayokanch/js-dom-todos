@@ -66,7 +66,7 @@ const fetchByPost = ()=>{
         fetch(`${root}/todos`, options)
         .then((response)=> response.json())
         .then(() =>{
-            renderList()
+            fetchByGet()
         })
       
         .catch((err)=>console.log('There is an error in your code', err))
